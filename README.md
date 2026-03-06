@@ -46,21 +46,33 @@ Certifique-se de ter o Python instalado e uma chave de API do [Google AI Studio]
 ### 2. Instalação
 ```bash
 # Clone o repositório
-git clone [https://github.com/Danxff/hackaton-mvp.git](https://github.com/Danxff/hackaton-mvp.git)
+git clone https://github.com/Danxff/hackaton-mvp.git
+```
 
+```bash
 # Crie e ative o ambiente virtual
 python -m venv .venv
+```
+
+```bash
 # Windows:
 .\.venv\Scripts\activate
+```
+
+```bash
 # Linux/Mac:
 source .venv/bin/activate
+```
 
+```bash
 # Instale as dependências
 pip install google-generativeai streamlit fpdf2 Pillow
+```
 
-3. Execução
-Bash
+```bash
+# Execução
 python -m streamlit run interface.py
+```
 
 📊 Estrutura do Relatório STRIDE Gerado
 O relatório final apresenta para cada componente:
@@ -73,5 +85,5 @@ O relatório final apresenta para cada componente:
 | Denial of Service | Indisponibilidade do sistema | AWS Shield e WAF Rate Limiting |
 | Elevation of Privilege | Ganho de acesso indevido | Princípio do Menor Privilégio |
 
-👨‍💻 Autor
-Desenvolvido por Daniel Assis Silva como parte do projeto de IA Para Devs - FIAP Postech.
+### 👨‍💻 Autor
+Desenvolvido por Daniel Assis Silva (daniel.assis@gmail.com) como parte do projeto Fase 5 da FIAP Postech - IA Para Devs.
